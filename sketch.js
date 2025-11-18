@@ -20,7 +20,7 @@ let fadingOut = false;
 let fadingIn = false;
 
 function setup() {
-  createCanvas(900, 700);
+  createCanvas(800, 600);
   // Load high score from localStorage
   if (localStorage.getItem("highScore")) {
     highScore = int(localStorage.getItem("highScore"));
